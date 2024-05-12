@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SquareOne</title>
     <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset CSS */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            box-sizing: border-box;
         }
 
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header Styles */
         header {
             background-color: #333;
             color: #fff;
@@ -20,6 +28,7 @@
             text-align: center;
         }
 
+        /* Navigation Styles */
         nav {
             background-color: #444;
             padding: 10px 0;
@@ -30,12 +39,14 @@
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            transition: color 0.3s ease;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #ffc107;
         }
 
+        /* Main Content Styles */
         .container {
             max-width: 1200px;
             margin: 20px auto;
@@ -47,8 +58,20 @@
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Footer Styles */
         footer {
             background-color: #333;
             color: #fff;
